@@ -6,10 +6,14 @@ independent technical work.
 
 ## Notebooks
 
+Two of the stronger pieces from this coursework have their own standalone
+repos:
+
+- **[ResumeMatchingTransformer](https://github.com/Lauralug0/ResumeMatchingTransformer)** — fine-tunes DistilBERT to match resumes against job descriptions
+- **[PrescriptionParserCRF](https://github.com/Lauralug0/PrescriptionParserCRF)** — CRF-based sequence labeling to parse doctor's prescriptions
+
 | Notebook | Description |
 |---|---|
-| [`resume_job_matching_transformer.ipynb`](notebooks/resume_job_matching_transformer.ipynb) | Fine-tunes a transformer-based deep learning model to match resumes against job descriptions. |
-| [`prescription_parser_crf.ipynb`](notebooks/prescription_parser_crf.ipynb) | Builds a doctor's-prescription parser using a Conditional Random Field (CRF) sequence-labeling model. |
 | [`news_topic_modeling.ipynb`](notebooks/news_topic_modeling.ipynb) | Extracts topics from news documents using matrix factorization / SVD-based topic modeling. |
 | [`text_classification_nlp.ipynb`](notebooks/text_classification_nlp.ipynb) | Compares NLP feature extraction methods (CountVectorizer, TF-IDF) for text classification. |
 | [`auto_feature_selector.ipynb`](notebooks/auto_feature_selector.ipynb) | An automated feature-selection tool combining multiple selection methods on a real-world dataset. |
@@ -24,8 +28,6 @@ GBC/
 ├── requirements.txt
 ├── .gitignore
 └── notebooks/
-    ├── resume_job_matching_transformer.ipynb
-    ├── prescription_parser_crf.ipynb
     ├── news_topic_modeling.ipynb
     ├── text_classification_nlp.ipynb
     ├── auto_feature_selector.ipynb

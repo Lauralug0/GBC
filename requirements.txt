@@ -4,7 +4,6 @@ scipy
 matplotlib
 seaborn
 scikit-learn
-sklearn-crfsuite
 spacy
 nltk
 gensim
@@ -12,9 +11,3 @@ pyLDAvis
 opencv-python
 mahotas
 lightgbm
-torch
-transformers
-datasets
-evaluate
-accelerate
-joblib
